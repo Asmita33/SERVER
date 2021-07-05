@@ -12,7 +12,7 @@ function init(userId) {
     peer = new Peer(userId, {
         host: '192.168.0.103',
         port: 9000,
-        path: '/VidoeCallFirebase'
+        path: '/server'
     })
     peer.on('open', () => {
     Android.onPeerConnected()
